@@ -1,0 +1,159 @@
+
+/* Règles de styles générales */
+
+*{
+    margin: 0px;
+}
+
+body{
+
+}
+
+.main_container{
+    display: flex;
+}
+
+p{
+    font-family: arial;
+    color: #2c2c2c;
+}
+
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'arial';
+    font-weight: normal;
+}
+
+
+
+
+
+/* Section gauche et droite */
+
+
+.left_side{
+    width: 25%;
+    background-color: #ffb81d;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right_side{
+    width: 75%;
+    background-color: #eeeeee;
+    padding-left: 70px;
+}
+
+
+
+/* Section gauche, photo */
+
+.profil_picture{
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+
+
+
+/* Section gauche, CONTACT */
+
+.container_contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main_title_contact{
+    display: flex;
+    height: 50px;
+    background-color:#2c2c2c;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main_title_contact h2{
+    color:#ffb81d;
+}
+
+
+.content_contact{
+    margin: 30px;
+
+}
+
+.adresse{
+    padding-bottom: 20px;
+}
+
+
+.tel{
+    padding-bottom: 20px;
+}
+
+.email{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* Section gauche, A PROPOS DE MOI */
+
+.container_about_me{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_title_about_me{
+    display: flex;
+    background-color: #2c2c2c;
+    color: #ffb81d;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_about_me{
+    margin: 30px;
+    height: 500px;
+}
+
+
+
+
+
+
+/* Section gauche, PLUS D'INFORMATIONS */
+
+.container_more_information{
+    display: flex;
+    flex-direction: column; 
+}
+
+.main_title_more_information{
+    display: flex;
+    background-color: #2c2c2c;
+    color: #ffb81d;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_more_information{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.content_more_information img{
+    margin-right: 25px;
+    margin-left: 25px;
+}
