@@ -52,10 +52,28 @@ h2{
 
 /* Section gauche, photo */
 
-.profil_picture{
+.container_rounded_image{
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     text-align:center;
 }
+
+
+
+
+.rounded_image{
+    overflow:hidden;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    border-radius:75px;
+    width:150px;
+    height:150px;
+    background: center  no-repeat url("../img/mathias_picture.png");
+    background-size: cover;
+
+}
+
 
 
 
