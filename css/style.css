@@ -19,12 +19,12 @@ p{
 }
 
 
-h2{
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'arial';
-    font-weight: normal;
+h1{
+    font-family: arial;
 }
+
+
+
 
 
 
@@ -46,7 +46,32 @@ h2{
     width: 75%;
     background-color: #eeeeee;
     padding-left: 70px;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+
+
+/* Section gauche générale */
+
+.title_left_side {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'arial';
+    font-weight: normal;
+}
+
+
+
+/* Section droite générale */
+
+.title_right_side {
+    text-transform: uppercase;
+    font-family: 'arial';
+}
+
 
 
 
@@ -175,3 +200,124 @@ h2{
     margin-right: 25px;
     margin-left: 25px;
 }
+
+
+
+
+/* Section droite TITRE PRINCIPAL */
+
+.right_side_main_title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main_title_name{
+    font-size: 2.5em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.hightlight{
+    color: #ffb81d;
+}
+
+
+.main_title_profession{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+
+.right_side_main_title p{
+    color: #ffb81d;
+    font-size: 1.2em;
+}
+
+
+
+
+/* Section droite FORMATION */
+
+.formation{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bloc_right_side_title{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+}
+
+.graduation{
+    margin-right: 50px;
+}
+
+
+.bloc_content_right_side{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+
+
+.localisation{
+    width:30%;
+
+}
+
+
+
+.localisation ul li{
+    color: #ffb81d;
+}
+
+
+.skills{
+
+    width: 50%;
+}
+
+.skills p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section droite EXPERIENCE PROFESSIONELLE */
+
+
+.experience_pro{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience_pro_title{
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio{
+    margin-right: 50px;
+}
+
