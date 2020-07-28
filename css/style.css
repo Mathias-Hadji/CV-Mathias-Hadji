@@ -68,7 +68,6 @@ h1{
 .main_container_right_side{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: 70px;
     margin-right: 70px;
 }
@@ -114,7 +113,6 @@ h1{
 .container_contact{
     display: flex;
     flex-direction: column;
-
 }
 
 .main_title_contact{
