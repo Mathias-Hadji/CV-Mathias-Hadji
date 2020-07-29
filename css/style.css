@@ -43,6 +43,7 @@ h1{
 
 .right_side{
     width: 75%;
+    height: 100%;
     background-color: #eeeeee;
     display: flex;
     flex-direction: column;
@@ -66,10 +67,10 @@ h1{
 /* Section droite générale */
 
 .main_container_right_side{
+    width: 90%;
+    margin-left: 70px;
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
-    margin-right: 70px;
 }
 
 .title_right_side {
@@ -252,23 +253,54 @@ hr.line_separator_main_title {
     flex-direction: row;
     width: 80%;
     align-items: center;
-
 }
 
 
 .bloc_content_right_side{
-    width: 80%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     margin-top: 40px;
     margin-bottom: 40px;
+
 }
+
+
+.subtitle_content_right_side{
+    margin-bottom: 10px;
+}
+
+
+.subtitle_content_right_side h3{
+    font-family: arial;
+    font-weight: normal;
+}
+
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.job_name{
+    margin-bottom: 10px;
+}
+
+
+.skills_description{
+
+}
+
 
 
 /* Section droite FORMATION */
 
 .formation{
     display: flex;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     margin-bottom:50px;
 }
@@ -286,24 +318,18 @@ hr.line_separator {
 
 .localisation{
     width:30%;
-
+    margin-right: 50px;
 }
 
 
 
 .localisation ul li{
     color: #ffb81d;
+    margin-left: -25px;
 }
 
 
-.skills{
 
-    width: 50%;
-}
-
-.skills p{
-    margin-bottom: 10px;
-}
 
 
 
