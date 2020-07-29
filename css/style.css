@@ -207,6 +207,14 @@ h1{
 }
 
 
+.linkedin_icon, .website_icon{
+    height: 50px;
+    filter: invert(25%);
+}
+
+
+
+
 
 
 /* Section droite TITRE PRINCIPAL */
