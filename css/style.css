@@ -57,6 +57,7 @@ p{
     text-align: center;
     font-family: 'arial';
     font-weight: normal;
+    font-size: 1.3em;
 }
 
 
@@ -218,7 +219,7 @@ p{
 
 
 .linkedin_icon, .website_icon{
-    height: 50px;
+    height: 40px;
     filter: invert(25%);
 }
 
