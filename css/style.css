@@ -13,14 +13,11 @@
 }
 
 p{
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
     color: #2c2c2c;
 }
 
 
-h1{
-    font-family: arial;
-}
 
 
 
@@ -75,7 +72,8 @@ h1{
 
 .title_right_side {
     text-transform: uppercase;
-    font-family: 'arial';
+    font-size: 1.6em;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -236,25 +234,33 @@ h1{
     padding-bottom: 100px;
 }
 
-.main_title_name{
-    font-size: 2.5em;
-    font-weight: 100;
+
+.first_name_hightlight{
+    font-size: 2em;
     text-transform: uppercase;
+    color: #ffb81d;
+    font-family: 'Raleway', sans-serif; 
 }
 
-.hightlight{
-    color: #ffb81d;
+.last_name{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
 }
+
 
 hr.line_separator_main_title {
-    border-top: 1px solid #ffb81d;
+    border-top: 2px solid #ffb81d;
     width: 6%;
 }
 
 
 .main_title_profession{
-    font-size: 1.5em;
-    font-weight: 100;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color:#2c2c2c;
 }
 
 
@@ -308,10 +314,6 @@ hr.line_separator_main_title {
 }
 
 
-.skills_description{
-
-}
-
 
 
 /* Section droite FORMATION */
@@ -329,7 +331,7 @@ hr.line_separator_main_title {
 }
 
 hr.line_separator {
-    border-top: 1px solid #ffb81d;
+    border-top: 2px solid #ffb81d;
     
 }
 
@@ -346,18 +348,6 @@ hr.line_separator {
     color: #ffb81d;
     margin-left: -25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
