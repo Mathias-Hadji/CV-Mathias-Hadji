@@ -339,17 +339,22 @@ hr.line_separator {
 
 
 .localisation{
-    width:30%;
+    width: 30%;
     margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.circle_around_dot{
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
 
-
-.localisation ul li{
-    color: #ffb81d;
-    margin-left: -25px;
+.dot{
+    margin-right: 20px;
+    margin-top: 5px;
 }
-
 
 
 
