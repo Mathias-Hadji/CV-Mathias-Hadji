@@ -23,10 +23,6 @@ p{
 
 
 
-
-
-
-
 /* Section gauche et droite */
 
 
@@ -231,6 +227,23 @@ p{
 
 /* Section droite TITRE PRINCIPAL */
 
+.rounded_image_right_side{
+    display: none;
+}
+
+.rounded_image_right_side{
+    overflow:hidden;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    border-radius:75px;
+    width:150px;
+    height:150px;
+    background: center  no-repeat url("../img/mathias_picture.png");
+    background-size: cover;
+
+}
+
+
 .right_side_main_title{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -274,14 +287,21 @@ hr.line_separator_main_title {
 
 
 
-/* Section droite contenu des différentes parties */
+/* Section droite TITRE DES PARTIES */
+
+hr.line_separator {
+    border-top: 2px solid #ffb81d;
+    
+}
 
 .bloc_right_side_title{
     display: flex;
     flex-direction: row;
-    width: 80%;
     align-items: center;
 }
+
+
+/* Section droite contenu des différents blocs */
 
 
 .bloc_content_right_side{
@@ -303,7 +323,12 @@ hr.line_separator_main_title {
     font-weight: normal;
 }
 
-
+.localisation{
+    width: 30%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
 
 .skills{
     display: flex;
@@ -311,40 +336,6 @@ hr.line_separator_main_title {
     width: 100%;
 }
 
-.job_name{
-    margin-bottom: 10px;
-}
-
-
-
-
-/* Section droite FORMATION */
-
-.formation{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    margin-bottom:50px;
-}
-
-.graduation{
-    margin-right: 50px;
-}
-
-hr.line_separator {
-    border-top: 2px solid #ffb81d;
-    
-}
-
-
-
-.localisation{
-    width: 30%;
-    margin-right: 50px;
-    display: flex;
-    flex-direction: row;
-}
 
 .circle_around_dot{
     margin-right: 20px;
@@ -359,6 +350,29 @@ hr.line_separator {
 
 
 
+.job_name{
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Section droite FORMATION */
+
+
+
+.formation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom:50px;
+}
+
+.graduation{
+    margin-right: 50px;
+}
+
 
 
 /* Section droite EXPERIENCE PROFESSIONELLE */
@@ -372,12 +386,11 @@ hr.line_separator {
     margin-bottom:50px;
 }
 
-.experience_pro_title{
-    display: flex;
-    flex-direction: row;
+.portfolio{
+    margin-right: 50px;
 }
 
-.portfolio{
+.recommandation_img{
     margin-right: 50px;
 }
 
@@ -395,7 +408,6 @@ hr.line_separator {
 }
 
 .container_recommandation{
-    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -405,15 +417,30 @@ hr.line_separator {
 
 
 .bloc_recommandation_1{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .bloc_recommandation_2{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
+
+
+.test{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+
+/* MEDIA QUERY */
+
+
+/* Petits écrans */
+

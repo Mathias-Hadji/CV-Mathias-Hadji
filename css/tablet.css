@@ -1,0 +1,80 @@
+
+
+/* Responsive version TABLETTE : de 768px à 992px en largeur */
+
+
+.main_container_all_page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.right_side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.left_side:nth-child(1){
+    order: 2;
+}
+
+.right_side:nth-child(2){
+    order: 1;
+}
+
+
+.container_rounded_image{
+    display: none;
+}
+
+.rounded_image_right_side{
+    display: flex;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.right_side_main_title
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.adresse_contact{
+    align-items: center;
+}
+
+.tel_contact{
+    align-items: center;
+}
+
+.email_contact{
+    align-items: center;
+}
+
+.website_contact{
+    align-items: center;
+}
+
+
+.content_about_me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

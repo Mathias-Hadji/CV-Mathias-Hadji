@@ -1,0 +1,148 @@
+/* Responsive version MOBILE : de 320px à 767px en largeur */
+
+h1{
+    font-size: 1em;
+}
+
+.main_title_profession{
+    font-size: 15px;
+}
+
+.title_right_side{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+.container_recommandation{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bloc_content_right_side{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+.localisation{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+
+.graduation{
+    margin-right:5px;
+}
+
+.portfolio{
+    margin-right:5px;
+}
+
+.recommandation_img{
+    margin-right:5px;
+}
+
+
+
+.main_container_all_page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+.right_side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.main_container_right_side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0px;
+}
+
+
+.left_side:nth-child(1){
+    order: 2;
+}
+
+.right_side:nth-child(2){
+    order: 1;
+}
+
+
+.container_rounded_image{
+    display: none;
+}
+
+.rounded_image_right_side{
+    display: flex;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.right_side_main_title
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.adresse_contact{
+    align-items: center;
+}
+
+.tel_contact{
+    align-items: center;
+}
+
+.email_contact{
+    align-items: center;
+}
+
+.website_contact{
+    align-items: center;
+}
+
+
+.content_about_me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
