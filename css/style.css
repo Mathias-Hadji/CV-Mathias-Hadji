@@ -266,8 +266,8 @@ p{
 
 
 hr.line_separator_main_title {
-    border-top: 2px solid #ffb81d;
     width: 6%;
+    border: 1px solid #ffb81d;
 }
 
 
@@ -290,8 +290,7 @@ hr.line_separator_main_title {
 /* Section droite TITRE DES PARTIES */
 
 hr.line_separator {
-    border-top: 2px solid #ffb81d;
-    
+    border: 1px solid #ffb81d;
 }
 
 .bloc_right_side_title{
