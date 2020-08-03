@@ -47,6 +47,10 @@
 }
 
 
+.bloc_right_side_title{
+    width: 100%;
+}
+
 .bloc_content_right_side{
     flex-direction: column;
     width: 90%;
@@ -87,14 +91,17 @@ p{
 
 .graduation{
     margin-right:5px;
+    height: 30px;
 }
 
 .portfolio{
     margin-right:5px;
+    width: 50%;
 }
 
 .recommandation_img{
     margin-right:5px;
+    height: 40px;
 }
 
 

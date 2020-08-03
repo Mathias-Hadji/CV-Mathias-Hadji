@@ -72,6 +72,11 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
+.icon_title{
+    margin-right: 50px;
+    color: #ffb81d;
+    font-size: 40px;
+}
 
 
 
@@ -91,9 +96,8 @@ p{
     border-radius:75px;
     width:150px;
     height:150px;
-    background: center  no-repeat url("../img/mathias_picture.png");
+    background: center no-repeat url("../img/mathias_picture.png");
     background-size: cover;
-
 }
 
 /* Section gauche, CONTACT */
@@ -200,11 +204,11 @@ p{
     margin: 40px;
 }
 
-
-.linkedin_icon, .website_icon{
-    height: 40px;
-    filter: invert(25%);
+.content_more_information a{
+    color: #2c2c2c;
+    font-size: 40px;
 }
+
 
 
 
@@ -354,6 +358,7 @@ hr.line_separator {
 }
 
 .graduation{
+    height: 50px;
     margin-right: 50px;
 }
 
@@ -368,9 +373,6 @@ hr.line_separator {
     margin-bottom:50px;
 }
 
-.portfolio{
-    margin-right: 50px;
-}
 
 
 
@@ -380,7 +382,6 @@ hr.line_separator {
 
 
 .recommandation{
-
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
@@ -412,6 +413,7 @@ hr.line_separator {
 
 .recommandation_img{
     margin-right: 50px;
+    height: 50px;
 }
 
 
