@@ -46,6 +46,11 @@
     align-items: center;
 }
 
+.icon_title{
+    margin-right: 10px;
+    color: #ffb81d;
+    font-size: 20px;
+}
 
 .bloc_right_side_title{
     width: 100%;
@@ -88,25 +93,6 @@ h3{
 p{
     font-size: 14px;
 }
-
-.graduation{
-    margin-right:5px;
-    height: 30px;
-}
-
-.portfolio{
-    margin-right:5px;
-    width: 50%;
-}
-
-.recommandation_img{
-    margin-right:5px;
-    height: 40px;
-}
-
-
-
-
 
 
 
