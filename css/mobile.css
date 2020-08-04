@@ -1,89 +1,8 @@
-/* Responsive version MOBILE : de 320px à 767px en largeur */
+/* RESPONSIVE VERSION MOBILE : de 320px à 767px en largeur */
 
-.main_container_all_page{
-    flex-direction: column;
-
-}
-
-.left_side:nth-child(1){
-    order: 2;
-}
-
-.right_side:nth-child(2){
-    order: 1;
-}
-
-.left_side{
-    width: 100%;
-    padding-top: 0px;
-}
-
-.right_side{
-    width: 100%;
-}
-
-.main_container_right_side{
-    margin-left: 20px;
-}
-
-
-.container_rounded_image{
-    display: none;
-}
-
-.rounded_image_right_side{
-    display: flex;
-    margin-bottom: 20px;
-    text-align:center;
-}
-
-.right_side_main_title
-{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.icon_title{
-    margin-right: 10px;
-    color: #ffb81d;
-    font-size: 20px;
-}
-
-.bloc_right_side_title{
-    width: 100%;
-}
-
-.bloc_content_right_side{
-    flex-direction: column;
-    width: 90%;
-}
-
-.localisation{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.skills{
-    margin-left: 30px;
-}
-
-.container_about_me{
-    flex:auto;
-}
-
+/* Modification taille des textes */
 h1{
     font-size: 1em;
-}
-
-.main_title_profession{
-    font-size: 15px;
-}
-
-.title_right_side{
-    font-size: 16px;
 }
 
 h3{
@@ -94,20 +13,115 @@ p{
     font-size: 14px;
 }
 
+.main_title_profession{
+    font-size: 15px;
+}
+
+.title_right_side{
+    font-size: 16px;
+}
 
 
 
-
-
-
-
-
-
-.content_contact{
-    display: flex;
+/* Affichage vertical de tous les blocs sur la page */
+.main_container_all_page{
     flex-direction: column;
 }
 
+
+/* Inversion de l'ordre d'affichage des sections gauche et droite */
+.left_side:nth-child(1){
+    order: 2;
+}
+
+.right_side:nth-child(2){
+    order: 1;
+}
+
+
+/* La partie gauche occupe toute la largeur de la page */
+.left_side{
+    width: 100%;
+    padding-top: 0px;
+}
+
+
+/* La partie droite occupe toute la largeur de la page */
+.right_side{
+    width: 100%;
+}
+
+
+/* Suppression de l'affichage de image de profil partie du bas */
+.container_rounded_image{
+    display: none;
+}
+
+
+/* Affichage de l'image de profil partie du haut */
+.rounded_image_right_side{
+    display: flex;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+
+/* Réduction de la marge de gauche pour optimiser l'espace sur un affichage
+mobile */
+.main_container_right_side{
+    margin-left: 20px;
+}
+
+
+/* Position des éléments du titre principal de la page au centre */
+.right_side_main_title
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Réduction de la taille des icones pour optimiser l'espace sur un affichage
+mobile */
+.icon_title{
+    margin-right: 10px;
+    color: #ffb81d;
+    font-size: 20px;
+}
+
+
+/* Positionnement des textes en vertical pour optimiser l'espace sur un
+affichage mobile */
+.bloc_content_right_side{
+    flex-direction: column;
+    width: 90%;
+}
+
+
+/* Optimisation de l'espace que prend le texte */
+.localisation{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* Alignement des textes */
+.skills{
+    margin-left: 30px;
+}
+
+
+/* Suppression de la propriété flex 1 provoquant un chevauchement des parties
+A propos et plus d'information sur internet explorer */
+.container_about_me{
+    flex:auto;
+}
+
+
+/* Centrer les textes partie A PROPOS DE MOI */
 .adresse_contact{
     align-items: center;
 }
@@ -124,11 +138,7 @@ p{
     align-items: center;
 }
 
-.content_about_me{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+
 
 
 

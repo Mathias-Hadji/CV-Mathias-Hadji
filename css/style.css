@@ -1,10 +1,7 @@
-
 /* Règles de styles générales */
-
 *{
     margin: 0px;
 }
-
 
 .main_container_all_page{
     display: flex;
@@ -19,12 +16,9 @@ p{
 }
 
 
+/* ----------- SECTION GAUCHE ----------- */
 
-
-
-
-/* Section gauche et droite */
-
+/* Section gauche générale */
 
 .left_side{
     width: 25%;
@@ -34,19 +28,6 @@ p{
     flex-direction: column;
 }
 
-
-.right_side{
-    width: 75%;
-    background-color: #eeeeee;
-    display: flex;
-}
-
-
-
-
-
-/* Section gauche générale */
-
 .title_left_side {
     text-transform: uppercase;
     text-align: center;
@@ -54,30 +35,6 @@ p{
     font-weight: normal;
     font-size: 1.3em;
 }
-
-
-
-/* Section droite générale */
-
-.main_container_right_side{
-    width: 90%;
-    margin-left: 70px;
-    display: flex;
-    flex-direction: column;
-}
-
-.title_right_side {
-    text-transform: uppercase;
-    font-size: 1.6em;
-    font-family: 'Poppins', sans-serif;
-}
-
-.icon_title{
-    margin-right: 50px;
-    color: #ffb81d;
-    font-size: 40px;
-}
-
 
 
 /* Section gauche, photo */
@@ -100,6 +57,7 @@ p{
     background-size: cover;
 }
 
+
 /* Section gauche, CONTACT */
 
 .container_contact{
@@ -116,11 +74,9 @@ p{
     justify-content: center;
 }
 
-
 .main_title_contact h2{
     color:#ffb81d;
 }
-
 
 .content_contact{
     display: flex;
@@ -134,7 +90,6 @@ p{
     flex-direction: column;
 }
 
-
 .tel_contact{
     padding-bottom: 20px;
     display: flex;
@@ -146,7 +101,6 @@ p{
     display: flex;
     flex-direction: column;
 }
-
 
 .website_contact{
     padding-bottom: 20px;
@@ -179,8 +133,6 @@ p{
     margin:40px;
 }
 
-
-
 /* Section gauche, PLUS D'INFORMATIONS */
 
 .container_more_information{
@@ -212,6 +164,26 @@ p{
 
 
 
+/* ----------- SECTION DROITE ----------- */
+
+
+
+/* Section droite générale */
+
+.right_side{
+    width: 75%;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+.main_container_right_side{
+    width: 90%;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 
@@ -233,12 +205,10 @@ p{
 
 }
 
-
 .right_side_main_title{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 
 .first_name_hightlight{
     font-size: 2em;
@@ -254,13 +224,11 @@ p{
     font-weight: lighter;
 }
 
-
 hr.line_separator_main_title {
     width: 6%;
     border: 1px solid #ffb81d;
     text-align: left;
 }
-
 
 .main_title_profession{
     font-size: 1.3em;
@@ -268,7 +236,6 @@ hr.line_separator_main_title {
     font-family: 'Poppins', sans-serif;
     color:#2c2c2c;
 }
-
 
 .right_side_main_title p{
     color: #ffb81d;
@@ -280,76 +247,32 @@ hr.line_separator_main_title {
 
 /* Section droite TITRE DES PARTIES */
 
-hr.line_separator {
-    border: 1px solid #ffb81d;
-}
-
 .bloc_right_side_title{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-
-/* Section droite contenu des différents blocs */
-
-
-.bloc_content_right_side{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.title_right_side {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-.subtitle_content_right_side{
-    margin-bottom: 10px;
-}
-
-
-.subtitle_content_right_side h3{
-    font-family: arial;
-    font-weight: normal;
-}
-
-.localisation{
-    width: 30%;
+.icon_title{
     margin-right: 50px;
-    display: flex;
-    flex-direction: row;
+    color: #ffb81d;
+    font-size: 40px;
 }
 
-.skills{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-
-.circle_around_dot{
-    margin-right: 20px;
-    margin-top: 5px;
-}
-
-
-.dot{
-    margin-right: 20px;
-    margin-top: 5px;
-}
-
-
-
-.job_name{
-    margin-bottom: 10px;
+hr.line_separator {
+    border: 1px solid #ffb81d;
 }
 
 
 
 
 /* Section droite FORMATION */
-
-
 
 .formation{
     display: flex;
@@ -359,9 +282,7 @@ hr.line_separator {
 
 
 
-
 /* Section droite EXPERIENCE PROFESSIONELLE */
-
 
 .experience_pro{
     display: flex;
@@ -371,11 +292,7 @@ hr.line_separator {
 
 
 
-
-
-
 /* Section droite RECOMMANDATIONS */
-
 
 .recommandation{
     display: flex;
@@ -405,6 +322,58 @@ hr.line_separator {
     display: flex;
     flex-direction: column;
 }
+
+
+
+/* Section droite, CONTENU DES DIFFERENTES PARTIES */
+
+.bloc_content_right_side{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitle_content_right_side{
+    margin-bottom: 10px;
+}
+
+.subtitle_content_right_side h3{
+    font-family: arial;
+    font-weight: normal;
+}
+
+.localisation{
+    width: 30%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.circle_around_dot{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.dot{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.job_name{
+    margin-bottom: 10px;
+}
+
+
+
+
 
 
 

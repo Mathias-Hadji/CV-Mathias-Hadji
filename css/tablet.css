@@ -1,9 +1,13 @@
-/* Responsive version TABLETTE : de 768px à 992px en largeur */
+/* RESPONSIVE VERSION TABLETTE : de 768px à 992px en largeur */
 
+
+/* Tous les blocs de la page s'affichent désormais verticalement */
 .main_container_all_page{
     flex-direction: column;
 }
 
+
+/* Inversion de l'ordre d'affichage des sections gauche et droite */
 .left_side:nth-child(1){
     order: 2;
 }
@@ -12,26 +16,35 @@
     order: 1;
 }
 
+
+/* La partie gauche occupe toute la largeur de la page */
 .left_side{
     width: 100%;
     padding-top: 0px;
 }
 
+
+/* La partie droite occupe toute la largeur de la page */
 .right_side{
     width: 100%;
 }
 
 
+/* Suppression de l'affichage de image de profil partie du bas */
 .container_rounded_image{
     display: none;
 }
 
+
+/* Affichage de l'image de profil partie du haut */
 .rounded_image_right_side{
     display: flex;
     margin-bottom: 20px;
     text-align:center;
 }
 
+
+/* Position des éléments du titre principal de la page au centre */
 .right_side_main_title{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -40,15 +53,22 @@
     align-items: center;
 }
 
+
+/* Suppression de la propriété flex 1 provoquant un chevauchement des parties
+A propos et plus d'information sur internet explorer */
 .container_about_me{
     flex:auto;
 }
 
+
+/* Centrer les textes partie A PROPOS DE MOI */
 .content_about_me{
     flex-direction: row;
     text-align: center;
 }
 
+
+/* Centrer les textes partie Contact */
 .adresse_contact{
     align-items: center;
 }
